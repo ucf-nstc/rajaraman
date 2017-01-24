@@ -3,6 +3,9 @@
 {% block content %}
     <div class="row">
         {% if meta.title == 'Home' %}
+        {# Featured research items #}
+        {% include './templates/partials/feature.twig' %}
+
         {# Three column layout #}
         {# Insert the contents of the front page .md files in each column subsection #}
         <div class="row">

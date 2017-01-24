@@ -467,8 +467,12 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto; }
+  @media only screen and (min-width: 540px) {
+    .container {
+      width: 90%; } }
   @media only screen and (min-width: 960px) {
     .container {
+      width: 80%;
       max-width: 1280px; } }
 
 .row {
@@ -562,3 +566,14 @@ body {
     width: 96%; }
   .hidden-sm {
     display: block; } }
+
+.feature {
+  border: 1px solid #ddd;
+  margin: 2%;
+  padding: 0; }
+  .feature div {
+    width: 50%; }
+  .feature img {
+    max-width: 45%;
+    padding: 2%;
+    margin: 0; }
