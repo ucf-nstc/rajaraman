@@ -1,9 +1,22 @@
 // Navigation
+nav {
+	// Mobile navigation
 
-// Mobile navigation
 
+	// Desktop navigation
+	@media only screen and (min-width: $breakpoint-med) {
+		ul {
+			list-style: none;
+			padding: 0;
 
-// Desktop navigation
-@media only screen and (min-width: $breakpoint-small) {
+			li {
+				display: inline-block;
+				text-transform: uppercase;
 
+				a {
+					text-decoration: none;
+				}
+			}
+		}
+	}
 }

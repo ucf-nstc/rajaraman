@@ -467,6 +467,9 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto; }
+  @media only screen and (max-width: 720px) {
+    .container .hidden-md {
+      display: none; } }
   @media only screen and (min-width: 540px) {
     .container {
       width: 90%; } }
@@ -567,12 +570,22 @@ body {
   .hidden-sm {
     display: block; } }
 
+@media only screen and (min-width: 720px) {
+  nav ul {
+    list-style: none;
+    padding: 0; }
+    nav ul li {
+      display: inline-block;
+      text-transform: uppercase; }
+      nav ul li a {
+        text-decoration: none; } }
+
 .feature {
   border: 1px solid #ddd;
   margin: 2%;
   padding: 0; }
   .feature div {
-    width: 50%; }
+    width: 60%; }
   .feature img {
     max-width: 45%;
     padding: 2%;

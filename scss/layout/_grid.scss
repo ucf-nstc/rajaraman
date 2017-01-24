@@ -54,8 +54,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 
+  // Hide on small and med screens
+  @media only screen and (max-width: $breakpoint-med) {
+    .hidden-md {
+        display: none;
+    }
+  }
+
   @media only screen and (min-width: $breakpoint-small) {
     width: 90%;
+
+
   }
 
   @media only screen and (min-width: $breakpoint-large) {
