@@ -1,0 +1,17 @@
+{
+  "name": "default-theme",
+  "version": "0.1.0",
+  "description": "Pico theme for NSTC Research Group pages",
+  "main": "index.twig",
+  "author": "Austin Tindle",
+  "license": "ISC",
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.3.0",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,31 @@
+// Base
+
+// Header
+header {
+	background-color: $primary-color;
+	padding: 2% 0;
+
+	h1,
+	svg {
+		display: inline-block;
+	}
+
+	.icon {
+		fill: $white;
+	}
+
+	// Make header text a different color
+	h1 a,
+	ul li,
+	ul li a,
+	p {
+		color: $white;
+	}
+}
+
+
+// Footer
+footer {
+	text-align: center;
+	margin: 4% 0;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block head %}
+
+		{# Title #}
+		<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+
+		{# The Metas #}
+	    {% if meta.description %}
+	        <meta name="description" content="{{ meta.description|striptags }}">
+	    {% endif %}{% if meta.robots %}
+	        <meta name="robots" content="{{ meta.robots }}">
+	    {% endif %}
+
+	    {# Fonts #}
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" type="text/css" />
+
+	    {# Stylesheets #}
+	    <link rel="stylesheet" href="{{ theme_url }}/public/css/main.css" type="text/css" />
+
+	    {# Modernizer #}
+	    <script src="{{ theme_url }}/public/js/modernizr-2.6.1.min.js"></script>
+
+	{% endblock %}
+
+</head>
+
+{# Body #}
+<body>
+
+	{# Header #}
+	{% block header %}
+
+		<header>
+			<div class="container">
+				<div class="row">
+
+			        <h1><a href="{{ "index"|link }}" id="logo">{{ site_title }}</a></h1>
+
+			        {# Navigation #}
+			       	{% include './templates/partials/nav.twig' %}
+
+			    </div>
+		    </div>
+		</header>
+
+	{% endblock %}
+
+	{# Content section #}
+	<section class="container">
+		{% block content %} {% endblock %}
+	</section>
+
+	{# Footer #}
+	<footer>
+		{% block footer %}
+			<p>&copy; 2017 NanoScience Technology Center</p>
+		{% endblock %}
+	</footer>
+
+</body>
+
+{# Scripts #}
+<script type="text/javascript" src="{{ theme_url }}/public/js/custom.js"></script>
+</html>

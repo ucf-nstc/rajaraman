@@ -1,0 +1,26 @@
+nux
+*~
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac OS X
+.DS_Store
+._*
+
+# Composer
+/composer.lock
+/composer.phar
+
+# Build system
+/_build/phpdoc
+/_build/phpdoc.cache
+/_build/deploy-*.git
+
+# Node
+node_modules/
+
+# Other
+style.old.css
