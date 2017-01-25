@@ -435,8 +435,14 @@ header {
 .about {
   margin: 4% 0; }
 
-.contact img {
-  border-radius: 50%; }
+.contact {
+  text-align: center; }
+  .contact h4,
+  .contact h5 {
+    margin: 0; }
+  .contact img {
+    margin: 0 auto;
+    border-radius: 50%; }
 
 .underline {
   border-bottom: 5px solid #FF5E5B; }
@@ -622,6 +628,12 @@ body {
   background: #fff;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
   padding: 2%; }
+  .sheet .footbar {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    width: 100%;
+    background: #FF5E5B; }
 
 .feature {
   margin-top: -150px !important;
@@ -641,9 +653,3 @@ body {
     .feature .feature-container p img {
       max-width: 100%;
       margin: 0; }
-  .feature .footbar {
-    margin: 0;
-    padding: 0;
-    height: 50px;
-    width: 100%;
-    background: #FF5E5B; }
