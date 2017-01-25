@@ -1,38 +1,17 @@
 {% extends "./templates/base.twig" %}
 
 {% block content %}
-    <div class="row">
+    
         {% if meta.title == 'Home' %}
-        {# Featured research items #}
-        {% include './templates/partials/feature.twig' %}
 
-        {# Three column layout #}
-        {# Insert the contents of the front page .md files in each column subsection #}
-        <div class="row">
-            {# Research #}
-            <div class="col-12-sm col-4">
-                {# Inserts the content #}
-                {{ "front-page/research"|content }}
+            {% include './templates/home.twig' %}
+
+        {% else %}
+
+            <div class="inner col-12">
+                {{ content }}
             </div>
 
-            {# News #}
-            <div class="col-12-sm col-4">
-                {{ "front-page/news"|content }}
-            </div>
-
-            {# Contact #}
-            <div class="col-12-sm col-4">
-                {{ "front-page/contact"|content }}
-            </div>
-        </div>
         {% endif %}
-
-        <div class="inner col-12">
-            {{ content }}
-        </div>
-
-    </div>
-
-   
 
 {% endblock %}

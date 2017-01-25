@@ -409,9 +409,18 @@ template {
   color: #333447;
   line-height: 1.5; }
 
+html {
+  background-color: #efefef; }
+
+.front-page-header {
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 0 200px 0; }
+
 header {
-  background-color: #FF5E5B;
-  padding: 2% 0; }
+  background-color: #FF5E5B; }
   header h1,
   header svg {
     display: inline-block; }
@@ -422,6 +431,21 @@ header {
   header ul li a,
   header p {
     color: #fff; }
+
+.about {
+  margin: 4% 0; }
+
+.contact img {
+  border-radius: 50%; }
+
+.underline {
+  border-bottom: 5px solid #FF5E5B; }
+
+.callout {
+  padding: 1%;
+  background-color: #FF5E5B;
+  color: #fff;
+  box-shadow: 2px 2px 1px #bbb; }
 
 footer {
   text-align: center;
@@ -571,22 +595,55 @@ body {
     display: block; } }
 
 @media only screen and (min-width: 720px) {
-  nav ul {
-    list-style: none;
-    padding: 0; }
-    nav ul li {
-      display: inline-block;
-      text-transform: uppercase; }
-      nav ul li a {
-        text-decoration: none; } }
+  nav {
+    margin-bottom: 5%; }
+    nav ul {
+      list-style: none;
+      padding: 0; }
+      nav ul h1 {
+        margin: 0;
+        padding: 0 8% 0 0;
+        text-transform: uppercase;
+        max-width: 200px;
+        line-height: 1.4; }
+        nav ul h1 a {
+          text-decoration: none;
+          line-height: 1.4; }
+      nav ul li {
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 0 1%; }
+        nav ul li a {
+          text-decoration: none;
+          text-shadow: 0 1px 0 #000; } }
+
+.sheet {
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  padding: 2%; }
 
 .feature {
-  border: 1px solid #ddd;
-  margin: 2%;
+  margin-top: -150px !important;
   padding: 0; }
-  .feature div {
-    width: 60%; }
-  .feature img {
-    max-width: 45%;
-    padding: 2%;
-    margin: 0; }
+  .feature h2 {
+    display: inline-block;
+    margin: 6% 6% 0 6%; }
+  .feature .feature-container {
+    display: flex;
+    align-items: center;
+    padding: 0 4% 4% 4%; }
+    .feature .feature-container p {
+      display: inline-block;
+      padding: 2%;
+      margin: 0;
+      flex-grow: 1; }
+    .feature .feature-container p img {
+      max-width: 100%;
+      margin: 0; }
+  .feature .footbar {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    background: #FF5E5B; }

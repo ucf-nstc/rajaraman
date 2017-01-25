@@ -1,6 +1,13 @@
-<figure class="feature col-12 hidden-md">
-	<div class="">
-		<img src="{{theme_url}}/public/images/research/microtool1.png">
-		<img src="{{theme_url}}/public/images/research/microtool2.png">
-	</div>
-</figure>
+<div class="row">	
+	<figure class="col-12 feature sheet hidden-md">
+		<h2 class="callout">Featured Research</h2>
+		<div class="feature-container">
+			{% for page in pages  %}
+				{% if 'front-page/features/' in page.id %}
+					{{ page.id|content }}
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class="footbar"></div>
+	</figure>
+</div>
