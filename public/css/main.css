@@ -436,12 +436,17 @@ header {
   margin: 4% 0; }
 
 .contact {
-  text-align: center; }
+  text-align: left; }
+  .contact p {
+    font-size: 14px;
+    line-height: 1.2; }
   .contact h4,
   .contact h5 {
     margin: 0; }
   .contact img {
-    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    width: 40%;
     border-radius: 50%; }
 
 .underline {
@@ -452,6 +457,11 @@ header {
   background-color: #FF5E5B;
   color: #fff;
   box-shadow: 2px 2px 1px #bbb; }
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ddd; }
 
 footer {
   text-align: center;

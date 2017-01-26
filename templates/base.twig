@@ -7,11 +7,13 @@
 		<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 
 		{# The Metas #}
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	    {% if meta.description %}
 	        <meta name="description" content="{{ meta.description|striptags }}">
 	    {% endif %}{% if meta.robots %}
 	        <meta name="robots" content="{{ meta.robots }}">
 	    {% endif %}
+
 
 	    {# Fonts #}
 	    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" type="text/css" />
