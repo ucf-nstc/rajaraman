@@ -3,8 +3,16 @@
 {% block content %}
     
         {% if meta.title == 'Home' %}
-
             {% include './templates/home.twig' %}
+
+        {% elseif meta.title == 'Group' %}
+            {% include './templates/group.twig' %}
+
+        {% elseif meta.title == 'Media' %}
+            {% include './templates/media.twig' %}
+
+        {% elseif meta.title == 'Research' %}
+            {% include './templates/research.twig' %}
 
         {% else %}
 

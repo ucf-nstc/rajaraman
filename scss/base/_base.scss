@@ -1,4 +1,8 @@
-// Base
+/*
+ * base.scss
+ */
+
+// General
 html {
 	background-color: #efefef;
 }
@@ -9,11 +13,14 @@ html {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 0 0 200px 0;
+
+	@media only screen and (min-width: $breakpoint-med) {
+		padding: 0 0 200px 0;
+	}
 }
 
 header {
-	background-color: $primary-color;
+	background-color: $dark-grey;
 	
 	h1,
 	svg {
@@ -53,8 +60,8 @@ header {
 
 	img {
 		display: block;
-		margin: 30px auto;
-		width: 40%;
+		margin: 20px auto;
+		width: 35%;
 		border-radius: 50%;
 	}
 }

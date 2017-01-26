@@ -1,0 +1,27 @@
+{# Research template #}
+
+{# Introduction #}
+<div class="row about">
+
+    <div class="col-12-sm col-8"> {{ content }} </div>
+    <div class="col-12-sm col-4 sheet contact">
+
+        {# Contact #}
+        {{ "front-page/contact"|content }}
+
+    </div>
+
+</div>
+
+<div class="row">
+
+    {# Loop through all item posts in the research folder#}
+    {% for page in pages %}
+        {% if 'item-' in page.id %}
+            <div class="col-12-sm col-6 sheet">
+                {{ page.id|content }}
+            </div>
+        {% endif %}
+    {% endfor %}
+
+</div>

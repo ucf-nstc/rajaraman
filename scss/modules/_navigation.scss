@@ -1,6 +1,30 @@
 // Navigation
 nav {
 	// Mobile navigation
+	ul {
+		list-style: none;
+		padding: 0;
+
+		h1 {
+			text-transform: uppercase;
+			display: block;
+
+			a {
+				text-decoration: none;
+				line-height: 1.4;
+			}
+		}
+
+		li {
+			display: inline-block;
+			padding: 0 3%;
+
+			a {
+				text-decoration: none;
+				text-shadow: 0 1px 0 $black;
+			}
+		}
+	}
 
 
 	// Desktop navigation
@@ -8,13 +32,10 @@ nav {
 		margin-bottom: 5%;
 
 		ul {
-			list-style: none;
-			padding: 0;
-
 			h1 {
+					display: inline-block;
 					margin: 0;
 					padding: 0 8% 0 0;
-					text-transform: uppercase;
 					max-width: 200px;
 					line-height: 1.4;
 
@@ -28,12 +49,6 @@ nav {
 				display: inline-block;
 				text-transform: uppercase;
 				padding: 0 1%;
-				
-
-				a {
-					text-decoration: none;
-					text-shadow: 0 1px 0 $black;
-				}
 			}
 		}
 	}

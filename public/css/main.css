@@ -406,9 +406,23 @@ template {
 
 * {
   font-family: "Lato", Helvetica, sans-serif;
-  color: #333447;
+  color: #353333;
   line-height: 1.5; }
 
+a {
+  color: #888;
+  text-decoration: none; }
+
+a:hover {
+  border-bottom: 2px solid #FF5E5B;
+  color: #353333; }
+
+nav a:hover {
+  color: #fff; }
+
+/*
+ * base.scss
+ */
 html {
   background-color: #efefef; }
 
@@ -416,11 +430,13 @@ html {
   background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 0 0 200px 0; }
+  background-position: center; }
+  @media only screen and (min-width: 720px) {
+    .front-page-header {
+      padding: 0 0 200px 0; } }
 
 header {
-  background-color: #FF5E5B; }
+  background-color: #353333; }
   header h1,
   header svg {
     display: inline-block; }
@@ -445,8 +461,8 @@ header {
     margin: 0; }
   .contact img {
     display: block;
-    margin: 30px auto;
-    width: 40%;
+    margin: 20px auto;
+    width: 35%;
     border-radius: 50%; }
 
 .underline {
@@ -610,28 +626,38 @@ body {
   .hidden-sm {
     display: block; } }
 
+nav ul {
+  list-style: none;
+  padding: 0; }
+  nav ul h1 {
+    text-transform: uppercase;
+    display: block; }
+    nav ul h1 a {
+      text-decoration: none;
+      line-height: 1.4; }
+  nav ul li {
+    display: inline-block;
+    padding: 0 3%; }
+    nav ul li a {
+      text-decoration: none;
+      text-shadow: 0 1px 0 #000; }
+
 @media only screen and (min-width: 720px) {
   nav {
     margin-bottom: 5%; }
-    nav ul {
-      list-style: none;
-      padding: 0; }
-      nav ul h1 {
-        margin: 0;
-        padding: 0 8% 0 0;
-        text-transform: uppercase;
-        max-width: 200px;
+    nav ul h1 {
+      display: inline-block;
+      margin: 0;
+      padding: 0 8% 0 0;
+      max-width: 200px;
+      line-height: 1.4; }
+      nav ul h1 a {
+        text-decoration: none;
         line-height: 1.4; }
-        nav ul h1 a {
-          text-decoration: none;
-          line-height: 1.4; }
-      nav ul li {
-        display: inline-block;
-        text-transform: uppercase;
-        padding: 0 1%; }
-        nav ul li a {
-          text-decoration: none;
-          text-shadow: 0 1px 0 #000; } }
+    nav ul li {
+      display: inline-block;
+      text-transform: uppercase;
+      padding: 0 1%; } }
 
 .sheet {
   box-sizing: border-box;
