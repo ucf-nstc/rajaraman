@@ -465,6 +465,21 @@ header {
     width: 35%;
     border-radius: 50%; }
 
+.group .pi-card {
+  display: flex; }
+  .group .pi-card img {
+    flex: 0 1 auto;
+    border-radius: 50%; }
+  .group .pi-card .pi-meta {
+    flex: 0 1 auto; }
+    .group .pi-card .pi-meta h3,
+    .group .pi-card .pi-meta h4 {
+      margin: 0;
+      padding: 0; }
+
+.group .show-onclick {
+  display: none !important; }
+
 .underline {
   border-bottom: 5px solid #FF5E5B; }
 

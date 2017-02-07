@@ -67,6 +67,34 @@ header {
 }
 
 
+// Group card
+
+.group {
+
+	.pi-card {
+		display: flex;
+
+		img {
+			flex: 0 1 auto;
+			border-radius: 50%;
+		}
+
+		.pi-meta {
+			flex: 0 1 auto;
+
+			h3,
+			h4 {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+
+	.show-onclick {
+		display: none !important;
+	}
+}
+
 // Underline thing
 .underline {
 	border-bottom: 5px solid $primary-color;

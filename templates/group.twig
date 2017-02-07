@@ -1,11 +1,29 @@
-{# Research template #}
+{# Group template #}
 
 {# Introduction #}
 <div class="row about">
-    <div class="col-12-sm col-12 sheet">
-        <div></div>
-        {{ content }}
+	{# Principle Investigator #}
+	<h2 class="col-12-sm col-12">Principle Investigator</h2>
+    <div class="col-12-sm col-12 sheet group">
+       	{{ "group/pi"|content }}
     </div>
+
+    {# Loop through investigators #}
+    <h2 class="col-12-sm col-12">Students</h2>
+    {% for page in pages %}
+        {% if 'student-' in page.id %}
+            <div class="col-12-sm col-6 sheet">
+                {{ page.id|content }}
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    {# Former students #}
+    <h2 class="col-12-sm col-12">Former Employees/Students (all during tenure at Axion BioSystems Inc.):</h2>
+    <div class="col-12-sm col-12 sheet">
+    	{{ "group/former"|content }}
+    </div>
+
 </div>
 
 <div class="row">
