@@ -18,16 +18,31 @@
 {# Two column layout #}
 {# Insert the contents of the front page .md files in each column subsection #}
 <div class="row">
+
+     {# News #}
+    <div class="col-12-sm col-6 sheet">
+        {{ "front-page/news"|content }}
+    </div>
+
     {# Research #}
     <div class="col-12-sm col-6 sheet">
         {# Inserts the content #}
         {{ "front-page/opportunities"|content }}
     </div>
 
-    {# News #}
+    {# Teaching #}
     <div class="col-12-sm col-6 sheet">
-        {{ "front-page/news"|content }}
+        {# Inserts the content #}
+        {{ "front-page/teaching"|content }}
     </div>
+</div>
 
+<div class="row">
+
+    {# Useful Links #}
+    <div class="col-12 sheet">
+        {# Inserts the content #}
+        {{ "front-page/links"|content }}
+    </div>
 
 </div>
