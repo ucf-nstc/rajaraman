@@ -705,5 +705,46 @@ nav ul {
       max-width: 100%;
       margin: 0; }
 
+/**
+ * (optional) define here the style definitions which should be applied on the slider container
+ * e.g. width including further controls like arrows etc.
+ */
+.slider {
+  padding: 15px; }
+  .slider img {
+    max-width: 100%; }
+  .slider .frame {
+    /**
+         * (optional) wrapper width, specifies width of the slider frame.
+         */
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center; }
+  .slider .slides {
+    display: inline-block; }
+  .slider ul {
+    padding: 0; }
+  .slider li {
+    position: relative;
+    display: inline-block;
+    /**
+         * (optional) if the content inside the slide element has a defined size.
+         */ }
+  .slider .prev, .slider .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: block;
+    cursor: pointer; }
+  .slider .next {
+    right: 0; }
+  .slider .prev {
+    left: 0; }
+  .slider .next svg, .slider .prev svg {
+    width: 25px; }
+
 .service {
   font-size: 0.8em; }

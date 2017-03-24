@@ -10,4 +10,4 @@
 - Pics to investigators page
 - Scholastic service remove from publications
 - Content updates forthcoming
-- Change background image to UCF fountain
+- ---

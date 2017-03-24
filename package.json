@@ -5,15 +5,18 @@
   "main": "index.twig",
   "author": "Austin Tindle",
   "license": "ISC",
-   "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "./bin/build-css",
     "watch-css": "./bin/watch-css"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.0",    
+    "gulp-cssnano": "^2.1.0",
     "gulp-sass": "^2.2.0",
     "gulp-rename": "latest"
+  },
+  "dependencies": {
+    "lory.js": "^2.2.1"
   }
 }

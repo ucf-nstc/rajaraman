@@ -1,4 +1,4 @@
-nux
+# Linux
 *~
 *.swp
 
@@ -6,7 +6,7 @@ nux
 Thumbs.db
 desktop.ini
 
-# Mac OS X
+# MacOS
 .DS_Store
 ._*
 
