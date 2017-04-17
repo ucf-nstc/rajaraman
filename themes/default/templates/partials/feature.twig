@@ -1,0 +1,41 @@
+<div class="row">	
+	<figure class="col-12 feature sheet hidden-md">
+		<div class="slider">
+
+			{# Probably shouldn't be here #}
+			<script type="text/javascript">
+				$(function(){
+					$("#slides").slidesjs({
+						width: 940,
+						height: 475,
+						pagination: {
+							active: false
+						},
+						play: {
+							// active play button visible = false
+							active: false,
+							interval: 5000,
+							auto: true,
+							pauseOnHover: true
+						},
+						navigation: {
+							active: false
+						}
+					});
+				});
+			</script>
+
+			<div id="slides">
+				{% for page in pages %}
+        			{% if 'feat-' in page.id %}
+        				<div>{{ page.id|content }}</div>
+        			{% endif %}
+        		{% endfor %}
+			</div>
+
+		</div>
+
+		<div class="footbar"></div>
+	</figure>
+
+</div>

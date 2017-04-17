@@ -1,0 +1,6 @@
+### Opportunities.
+We are an interdisciplinary group and welcome students from a wide variety of backgrounds and fields. In particular, we look for students that have undergraduate degrees in Engineering disciplines such as Electrical, Biomedical, Mechanical, Material Science and Chemical as well as Science disciplines such as Chemistry and Physics. If you are passionate about developing new technologies to advance the state of human health and personalized medicine, please [contact Dr. Rajaraman directly](mailto:swaminathan.rajaraman@ucf.edu).
+
+As a graduate student, you will be presented with the opportunity to develop novel micro/nanosensor platforms and work with other colleagues to expand your knowledge of the biotechnological and biomedical application space for such technologies. Additionally, you will be presented with opportunities to work on and characterize new tools for micro/nanofabrication and materials characterization. Based on your aptitude, you will work with biological materials and systems as well. 
+
+As an undergraduate student, you will learn valuable skills and knowledge in CAD, micro/nanofabrication development, instrumentation installation and characterization. 

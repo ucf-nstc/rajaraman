@@ -1,0 +1,21 @@
+// Universal
+* {
+  font-family: $font-family;
+  color: $dark-grey;
+  line-height: $font-height;
+}
+
+// Some niiice links 
+a {
+	color: $light-grey;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 2px solid $primary-color;
+	color: $dark-grey;
+}
+
+nav a:hover {
+	color: $white;
+}

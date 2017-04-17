@@ -1,0 +1,33 @@
+{# Home template #}
+
+{# Featured research items #}
+{% include './templates/partials/feature.twig' %}
+
+{# About section #}
+<div class="row about">
+    <div class="col-12-sm col-6">
+        {{ "front-page/about"|content }}
+
+        {# Opportunities #}
+        <div class="sheet">
+            {# Inserts the content #}
+            {{ "front-page/opportunities"|content }}
+        </div>
+    </div>
+
+    {# News #}
+    <div class="col-12-sm col-6 sheet">
+        {{ "front-page/news"|content }}
+    </div>
+</div>
+
+
+{# Two column layout #}
+{# Insert the contents of the front page .md files in each column subsection #}
+<div class="row">
+    {# Teaching #}
+    <div class="col-12-sm col-6 sheet">
+        {# Inserts the content #}
+        {{ "front-page/teaching"|content }}
+    </div>
+</div>

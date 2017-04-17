@@ -1,0 +1,28 @@
+{% extends "./templates/base.twig" %}
+
+{% block content %}
+    
+        {% if meta.title == 'Home' %}
+            {% include './templates/home.twig' %}
+
+        {% elseif meta.title == 'Group' %}
+            {% include './templates/group.twig' %}
+
+        {% elseif meta.title == 'Publications' %}
+            {% include './templates/publications.twig' %}
+
+        {% elseif meta.title == 'About' %}
+            {% include './templates/about.twig' %}
+
+        {% elseif meta.title == 'Team' %}
+            {% include './templates/team.twig' %}
+
+        {% else %}
+
+            <div class="inner col-12">
+                {{ content }}
+            </div>
+
+        {% endif %}
+
+{% endblock %}

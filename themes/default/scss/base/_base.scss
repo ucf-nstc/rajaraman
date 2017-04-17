@@ -1,0 +1,122 @@
+/*
+ * base.scss
+ */
+
+// General
+html {
+	background-color: #efefef;
+}
+
+// Header
+.front-page-header {
+	background-color: $black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	@media only screen and (min-width: $breakpoint-med) {
+		padding: 0 0 200px 0;
+	}
+}
+
+header {
+	background-color: $dark-grey;
+	
+	h1,
+	svg {
+		display: inline-block;
+	}
+
+	.icon {
+		fill: $white;
+	}
+
+	// Make header text a different color
+	h1 a,
+	ul li,
+	ul li a,
+	p {
+		color: $white;
+	}
+}
+
+// About Section
+.about {
+	margin: 4% 0;
+}
+
+// Contact section
+.contact {
+	text-align: left;
+	p {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+
+	h4,
+	h5 {
+		margin:  0;
+	}
+
+	img {
+		display: block;
+		margin: 20px auto;
+		width: 35%;
+		border-radius: 50%;
+	}
+}
+
+
+// Group card
+
+.group {
+
+	.pi-card {
+		display: flex;
+
+		img {
+			flex: 0 1 auto;
+			border-radius: 50%;
+		}
+
+		.pi-meta {
+			flex: 0 1 auto;
+
+			h3,
+			h4 {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+
+	.show-onclick {
+		display: none !important;
+	}
+}
+
+// Underline thing
+.underline {
+	border-bottom: 5px solid $primary-color;
+}
+
+// Callout
+.callout {
+	padding: 1%;
+	background-color: $primary-color;
+	color: $white;
+	box-shadow: 2px 2px 1px #bbb;
+}
+
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px solid $white-grey;
+}
+
+
+// Footer
+footer {
+	text-align: center;
+	margin: 4% 0;
+}
