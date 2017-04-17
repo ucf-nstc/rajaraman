@@ -708,6 +708,9 @@ nav ul {
 .service {
   font-size: 0.8em; }
 
+.slider {
+  text-align: center; }
+
 #slides p img {
   max-height: 350px;
   max-width: 850px; }
