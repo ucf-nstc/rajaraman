@@ -2,12 +2,16 @@
 	text-align: center;
 }
 
+#slides {
+	padding-bottom: 50px;
+}
+
 #slides p img {
-	max-height: 350px;
-	max-width: 850px;
+	max-height: 80%;
+	max-width: 75%;
 }
 
 #slides p {
-	padding: 0 25px;
+	padding: 25px 0;
 }
 

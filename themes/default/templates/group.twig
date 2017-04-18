@@ -12,7 +12,7 @@
     <h2 class="col-12-sm col-12">Students</h2>
     {% for page in pages %}
         {% if 'student-' in page.id %}
-            <div class="col-12-sm col-6 sheet">
+            <div class="col-12 sheet">
                 {{ page.id|content }}
             </div>
         {% endif %}
