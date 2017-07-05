@@ -1,5 +1,9 @@
 ### News.
 
+- **June 2017**: A multi-modal laser micromachining tool with operational capability in Green, UV and IR modes is fully operational in the lab.
+
+- **May 2017**: Dr. Rajaraman is featured on the Commercial Micromachining Magazine article by eminent MEMS professional, Roger Grace. The article is entitled, “MEMS and Sensors Marketing: Oxymoron or Opportunity”.
+
 - **April 2017**: Nilab Azim, a Ph.D. Student in the Rajaraman and Zhai groups won a travel award for the Electrochemical Society Meeting to be held in New Orleans on May 28 to June 1, 2017. Nilab will be presenting a poster on “Precision Plating of Cells on Microelectrodes enhanced with Nano-Porous Platinum” at this meeting.
 
 - **April 2017**:Tariq Ausaf, a sophomore in Electrical and Computer Engineering volunteering in Dr. Rajaraman’s group won two scholarships offered in a competitive setting to students in the College of Engineering and Computer Science, the AT&T Endowed Scholarship and the Boeing Scholarship.
