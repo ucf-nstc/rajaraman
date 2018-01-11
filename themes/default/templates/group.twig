@@ -8,8 +8,8 @@
        	{{ "group/pi"|content }}
     </div>
 
-    {# Loop through investigators #}
-    <h2 class="col-12-sm col-12">Team</h2>
+    {# Loop through current students #}
+    <h2 class="col-12-sm col-12">Current Team</h2>
     {% for page in pages %}
         {% if 'student-' in page.id %}
             <div class="col-12 sheet">
@@ -19,6 +19,12 @@
     {% endfor %}
 
     {# Former students #}
+    <h2 class="col-12-sm col-12">Former Students (at UCF)</h2>
+    <div class="col-12-sm col-12 sheet">
+        {{ "group/former-students"|content }}
+    </div>
+
+    {# Former employees #}
     <h2 class="col-12-sm col-12">Former Employees/Students (all during tenure at Axion BioSystems Inc.):</h2>
     <div class="col-12-sm col-12 sheet">
     	{{ "group/former"|content }}

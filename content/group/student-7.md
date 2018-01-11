@@ -1,8 +1,8 @@
-###Sandra Springer
+###Sarah Fremgen
 ___
 
 **Academics**: Applied Life Sciences (Bachelor of Science) Undergraduate Student, Hochschule Kaiserslautern (Zweibrucken, Germany); Visiting Student to UCF; graduating in Spring 2018
 
-***Interests***: I am fascinated of the mixture of the technical education combined with biological, medical and chemical components of my studies. Important for me is to combine all these facts in my career. I will do my practical phase and bachelor thesis here at the NSTC. The NSTC seems for me the perfect place to combine these interdisciplinary areas.
+***Interests***: Nanoscience is interesting because you work with materials of a very small scale but the results can also be applied in bigger scales. Another point is that physics, chemistry and biology can be easily combined with technology. Therefore, I chose the NSTC to do my bachelor’s thesis here.
 
-***About***: When I get my Bachelors, I want to continue my education in a related master studies.
+***About***: I want to pursue a master’s degree in the field of nanoscience.

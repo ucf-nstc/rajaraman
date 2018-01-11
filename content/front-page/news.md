@@ -1,4 +1,9 @@
 ### News.
+- **November 2017**: Dr. Rajaraman is a featured speaker at the MEMS Journal Medical MEMS 2017 Conference in Santa Clara, CA. For more details, please visit: [http://www.medicalmems2017.com](http://www.medicalmems2017.com/speakers.html)
+
+- **October 2017**: Tariq, Avra and Dr. Rajaraman attend MicroTAS 2017 to present 2 posters from the group. They are featured in the Lab on a Chip blog for selected posters from MicroTAS - [http://blogs.rsc.org/](http://blogs.rsc.org/lc/2017/11/16/microtas-late-news-posters/?doing_wp_cron=1513366645.9609229564666748046875)
+
+- **September 2017**: Dr. Rajaraman is interviewed and quoted for a feature in Orlando Sentinel on the growth of Smart Sensors in the Central Florida area - [http://www.orlandosentinel.com](http://www.orlandosentinel.com/business/technology/os-bz-microsoft-satya-nadella-20170925-story.html)
 
 - **August 2017**: Two of our abstracts were accepted for poster presentation at the MicroTAS 2017 Meeting. For more details, please visit: [http://www.microtas2017.org](http://www.microtas2017.org)
 

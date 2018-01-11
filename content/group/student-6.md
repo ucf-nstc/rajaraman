@@ -1,8 +1,8 @@
-###An Nguyen
+###Sandra Springer
 ___
 
-**Academics**: B.S. Biomedical Sciences, USF (2015) Nanotechnology PSM, UCF
+**Academics**: Applied Life Sciences (Bachelor of Science) Undergraduate Student, Hochschule Kaiserslautern (Zweibrucken, Germany); Visiting Student to UCF; graduating in Spring 2018
 
-***Interests***: Nanotechnology advancements in biomedical devices for applications of drug delivery and bio-assays. I am currently working on characterization of Microelectrode Arrays (MEA).
+***Interests***: I am fascinated of the mixture of the technical education combined with biological, medical and chemical components of my studies. Important for me is to combine all these facts in my career. I will do my practical phase and bachelor thesis here at the NSTC. The NSTC seems for me the perfect place to combine these interdisciplinary areas.
 
-***About***: My plans after graduation will be to work for a biotechnology company, because interdisciplinary studies in medicine and technology have always fascinated me. My degree in nanotechnology has taught me a lot about biomedical sensors and devices and I hope to apply that knowledge to future technologies.
+***About***: When I get my Bachelors, I want to continue my education in a related master studies.
