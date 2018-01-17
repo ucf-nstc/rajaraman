@@ -1,4 +1,6 @@
 ### Avra Kundu
+
+![Avra Kundu](http://nano.ucf.edu/images/AvraKundu.png "Avra Kundu")
 ___
 **Post-Doctoral Scholar**  
 **NanoScience Technology Center**  

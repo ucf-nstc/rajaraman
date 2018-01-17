@@ -5,7 +5,7 @@ Title: Group
 ###**Swaminathan Rajaraman, Ph.D.** 
 ####*Assistant Professor* 
 
-![alt text](/images/SwamiRajaraman.jpg "Logo Title Text 1")
+![Swaminathan Rajaraman](http://nano.ucf.edu/images/SwamiRajaraman.jpg "Swaminathan Rajaraman")
 ___
 
 Swaminathan Rajaraman (Swami) received his B.S. degree in Electronics Engineering from Bharathidasan University (Trichy, India), his M.S. degree in Electrical Engineering from the University of Cincinnati (Cincinnati, OH) and his Ph.D. degree in Electrical Engineering from the Georgia Institute of Technology (Atlanta, GA) in 1998, 2001 and 2009 respectively. His Ph.D. advisor was Prof. Mark G. Allen, a renowned MEMS expert and Regents’ Professor at Georgia Tech (and now at the University of Pennsylvania). 
